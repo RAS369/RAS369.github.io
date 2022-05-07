@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log_in </title>
+    <link rel="stylesheet" href="css/login.css">
+    <!---we had linked our css file----->
+</head>
+<body>
+  
+    <div class="full-page">
+        <div class="navbar">
+            
+                <img id="img" src="imgs/WhatsApp Image 2022-05-05 at 9.26.10 PM.jpeg" alt="logo_image">
+            
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href=' '>Home</a></li>
+                    <li><a href='https://www.google.com'>About us</a></li>
+                    <li><a href='index.html'>payment</a></li>
+                    <li><a href='contactproject.html'>Contact</a></li>
+                    <!--<li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>-->
+                    <li><a href="rahma-feedback.html">F.back</a></li>
+                    
+
+                </ul>
+            </nav>
+        </div>
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                    <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type='text'class='input-field'placeholder='Email Id' required >
+		    <input id="my_input" type='password'class='input-field'placeholder='Enter Password' required>
+		    <input type='checkbox'class='check-box'><span>Remember Password</span>
+		    <button  type='submit'class='submit-btn'>Log in</button>
+		 </form>
+		 <form id='register' class='input-group-register'>
+		     <input type='text'class='input-field'placeholder='First Name' required>
+		     <input type='text'class='input-field'placeholder='Last Name ' required>
+		     <input type='email'class='input-field'placeholder='Email Id' required>
+		     <input type='password'class='input-field'placeholder='Enter Password' required>
+		     <input type='password'class='input-field'placeholder='Confirm Password'  required>
+		     <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                    <button  type='submit'class='submit-btn'>Register</button>
+	         </form>
+            </div>
+        </div>
+    </div> 
+    <script>
+        var x=document.getElementById('login');
+		var y=document.getElementById('register');
+		var z=document.getElementById('btn');
+		function register()
+		{ 
+			x.style.left='-400px';
+			y.style.left='50px';
+			z.style.left='110px';
+		}
+		function login()
+		{
+			x.style.left='50px';
+			y.style.left='450px';
+			z.style.left='0px';
+		}
+	</script>
+	<!--<script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function(event) 
+        {
+            if (event.target == modal) 
+            {
+                modal.style.display = "none";
+            }
+        }
+    </script>-->
+   <!-- <script>
+        var myButton=document.getElementById('my_button'),
+        myInput=document.getElementById('my_input');
+        myButton.onclick=function (){
+            'use strict';
+            if(this.textcontent==='show password'){
+                myInput.setAttribute('type','text');
+                this.textContent='hide password'
+            } else{
+                if(this.textcontent==='hide password'){
+                myInput.setAttribute('type','password');
+                this.textContent='show password'
+            }
+        };
+    </script>-->
+
+</body>
+</html>

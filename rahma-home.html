@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masika</title>
+     <link rel="stylesheet" href="css/rahma-home.css">    
+</head>
+<body>
+    <nav class="navbar">
+    <div class="nav">
+        <img src="imgs/WhatsApp Image 2022-05-05 at 9.26.10 PM.jpeg" class="brand-logo"  alt="">
+       
+        <div class="nav-items">
+            <div class="search">
+                <input type="text" class="sear-box" placeholder="search products..">
+                <button class="btn">search</button>
+            </div>
+        <pre><a href="#"> <img id="img "src="imgs/user.jpg" alt=""></a> <a href="#"><img src="imgs/cart.jpg" alt=""></a></pre>
+           <label id="dark-change"></label>
+        </div>
+    </div>
+    <ul class="links">
+        <li class="link-item"><a href="#" class="link">contact</a></li>
+        <li class="link-item"><a href="rahma-feedback.html" class="link">Feedback</a></li>
+    </ul>
+</nav>  
+<header>
+    <div class="b-image">
+        <div class="b-text">
+            <h1>Mazika</h1>
+          <h2>The Best Music Store!</h2>
+        </div>
+      </div>
+    <h2 id="two"> categories</h2>
+</header>
+<section class="collection-container">
+    <a href="#" class="type">
+    <img src="imgs/guiter.png" alt="">
+    <p class="collection-title">Guitar</p>
+    </a>
+    <a href="#" class="type">
+    <img src="imgs/flute1.jpg" alt="">
+    <p class="collection-title">Woodwind</p>
+    </a>
+    <a href="#" class="type">
+        <img src="imgs/drum2.jpg" alt="">
+        <p class="collection-title">Percussion</p>
+        </a>
+    <a href="#" class="type">
+    <img src="imgs/violin2.jpg" alt="">
+    <p class="collection-title">Violin</p>
+    </a>
+    <a href="#" class="type">
+        <img src="imgs/piano.jpg" alt="">
+        <p class="collection-title">Keyboards</p>
+        </a>
+</section>
+<div class="footer-basic">
+<footer >
+    <div class="social">
+        <a href="#">
+            <i class="icon ion-social-instagram"><img src="imgs/insta.jpg" alt="">
+          </i>
+        </a>
+        <a href="#">
+        <i class="icon ion-social-facebook"><img src="imgs/face.jpg" alt="">
+        </i>
+    </a>
+    <a href="#">
+        <i class="icon ion-social-linked-in"><img src="imgs/linked.jpg" alt="">
+        </i>
+    </a>
+    <a href="#">
+        <i class="icon ion-social-twitter"><img src="imgs/twiter.jpg" alt="">
+        </i>
+    </a>
+</div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#">About</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+    </ul>
+    <p class="copyright">Mazika © 2022</p>
+</footer>
+</div>
+<script>
+    var content=document.getElementsByTagName('body')[0];
+    var darkmode=document.getElementById('dark-change');
+    darkmode.addEventListener('click',function(){
+        darkmode.classList.toggle('active');
+        content.classList.toggle('night');
+    })
+</script>
+</body>
+</html>

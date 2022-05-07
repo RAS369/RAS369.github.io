@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../imgs/music-notes-background-black-and-white-wallpaper-4.jpg");
+    background-size: cover;
+    background-color:rgba(0,0,0,0.4) ;
+    
+}
+
+#img{
+    
+    width:150px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border:#F3C693 solid 2px;
+}
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    border:0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    background:rgba(0,0,0,0.3);
+}
+
+.container h1{
+    text-align: center;
+    color:black ;
+    background-color: #F3C693;
+    width:500px;
+    border-radius: 30px;
+    margin-left: 100px;
+    border: solid black 2px;
+
+}
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:0;
+    outline: none;
+    padding: 10px;
+    background-color:rgba(0,0,0,0.3);
+    
+
+
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+    background-color:rgba(0,0,0,0.3) ;
+}
+
+
+#button:hover{
+    background-color: rgba(237, 6, 6, 0.691);
+}
+
+
+
+.cards img{
+    width: 100px;
+}#button{
+    background-color:#F3C693 ;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s; 
+    border-radius: 30px;
+    width:400px;
+    margin-left: 150px;
+    font-weight: 20px;
+}

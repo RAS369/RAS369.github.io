@@ -1,0 +1,183 @@
+﻿.litext{
+
+ 
+   
+ padding:25px 23px;
+ 
+    
+font-size:20px;
+ 
+   
+color:white;}
+
+
+
+.liimg{
+       
+width:120px;
+        
+       
+height:100px;
+        
+       
+float:left;
+ 
+      
+padding:5px 5px ;}
+
+.liicons{
+     
+padding:25px;
+     
+float:right;}
+
+.liiicons{
+
+     padding:28px 6px;
+
+     float:right;}
+
+.liiiicons{
+     
+padding:25px 1px;
+     
+float:right;}
+.search{
+     
+padding:200px 70px ;
+     
+float:right;
+ 
+   }
+
+.allbody{
+     
+padding:40px;
+    
+ margin-top:50px;
+    
+ overflow-x:hidden;
+     
+overflow-y:auto;
+     
+} 
+
+.firstparagraph{
+    
+float:right;
+   
+font-size:15px;
+   
+position:relative;
+   
+bottom:17px;
+   
+}
+
+.firstlink{
+
+   color:black;}
+
+.search{
+
+    float:right;
+
+    padding:2px 1px 0px 3px;
+
+   position:relative;
+
+   bottom:20px;
+
+    }
+
+.inputt{
+
+   position:relative;
+
+   bottom:20px;
+
+   float:right;
+
+   width:700px;
+height:35px;
+
+   border:1px solid #d3d3d3;
+ 
+   }
+ 
+.secondparagraph{
+
+   padding:90px 170px 0px;
+
+   font-size:25px;
+
+   float:right;
+
+   text-align:right;
+
+  clear:both;
+
+  font-size:30px;
+
+  
+   }
+
+.phonemessage{
+
+    position:relative;
+
+    padding:10px 10px 10px 10px;
+ 
+    top:205px;
+
+    left:900px;
+
+    background-color:orange;
+ 
+   margin-right:1px;
+}
+
+.phonemessage2{
+ 
+   position:relative;
+ 
+   padding:10px 10px 10px 10px;
+ 
+    top:205px;
+
+    left:780px;
+
+    background-color:orange;
+}
+
+.message{
+
+   position:relative;
+
+   left:1000px;
+
+   top:175px;}
+
+.message1{
+
+   position:relative;
+
+   left:830px;
+
+   top:148px;
+
+   font-size:13px;}
+
+.buying{
+ 
+    position:relative;
+
+     bottom:330px;
+
+     width:2px;
+
+     height:2px;
+
+     display:grid;
+
+     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;}

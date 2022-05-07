@@ -1,0 +1,214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    
+    width:150px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border:#F3C693 solid 2px;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image:url("../imgs/music-notes-background-black-and-white-wallpaper-4.jpg");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+    display: inline-block;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align:right;
+
+}
+/*img{
+margin-top: 0px;
+margin-left: 0px;
+    width:150px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+}*/
+nav
+{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+    border:#F3C693 solid 1px;
+    background-color: black;
+    border-radius: 20px;
+    width:100px;
+    height:40px;
+    text-align: center;
+    padding:5px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover
+{
+    color: rgb(155, 52, 8);
+    font-size: 22px;
+    
+}
+a
+{
+    text-decoration: none;
+    font-size: 28px;
+}
+#login-form
+{
+    display: block;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(34, 34, 34, 0.501);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid rgb(170, 166, 166);
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:rgb(198, 190, 190);
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+#my_button{
+    color:rgb(129, 125, 125);
+    background-color: #F3C693;
+    width:auto;
+    height:10px
+
+}.submit-btn:hover{
+    background-color:white;
+    color: black;
+}img{
+    
+    width:150px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+}

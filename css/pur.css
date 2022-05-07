@@ -1,0 +1,26 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:'roboto',sans-serif;
+     }
+
+
+   .x{
+	top:0;
+	position:sticky;
+	left:0;
+	width:100%;
+	background:whitesmoke;
+    z-index: 9;
+   }
+
+   .y{
+       padding: 10px 10px;
+       display:flex;
+       justify-content: space-between;
+   }
+
+   .musicstore-logo{
+       height: 60px;
+   }

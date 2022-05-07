@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: #d6cccc;
+}
+
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../imgs/feeedback.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) brightness(80%);
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    width: 300px;
+    background: rgb(14, 13, 13);
+    box-shadow: 0 0 8px rgba(6, 6, 6, 0.6);
+    opacity: 0.6;
+}
+.container2 form{
+    width:100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+form h1{
+    padding: 10px 0;
+}
+form.id{
+    position: relative;
+}
+.id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #f0e5e5;
+    border-radius: 3px;
+    background: rgb(9, 9, 9);
+    padding: 0 15px;
+    font-size: 20px;
+    padding-right: 45px;
+}
+form textarea{
+    padding: 5px 15px;
+    border: 1px solid #fff9f9;
+    border-radius: 3px;
+    background: #000;
+    padding: 0 15px;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    background: rgb(228, 80, 0);
+    color: black;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form input:focus,
+form textarea:focus{
+    border: 1px solid rgb(228, 80, 0) ;
+    color: rgb(251, 244, 244);
+    transition: all 0.3s ease;
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: rgb(228, 80, 0);
+    transition: all 0.3s ease;
+}
+form input:focus+i{
+    color: rgb(228, 80, 0);
+    transition: all 0.3s ease;
+}

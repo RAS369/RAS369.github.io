@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/> 
+    <title>Guitars</title>
+</head>
+ 
+<body>
+    <!-- <header>
+        <a href="#"><img src="imgs/logo.png" class="logo" > </a>
+        <nav class="navbar">
+            <div class="nav">
+                <img src="imgs/logo30.jpg" class="brand-logo"  alt="">
+               
+                <div class="nav-items">
+                    <div class="search">
+                        <input type="text" class="sear-box" placeholder="search products..">
+                        <button class="btn">search</button>
+                    </div>
+                   <a href="#"> <img src="imgs\user.jpg" alt=""></a>
+                   <a href="#"><img src="imgs\cart.jpg" alt=""></a>
+                   <label id="dark-change"></label>
+                </div>
+            </div>
+            <ul class="links">
+                <li class="link-item"><a href="#" class="link">contact</a></li>
+                <li class="link-item"><a href="rahma-feedback.html" class="link">Feedback</a></li>
+            </ul>
+        </nav>  
+    </header> -->
+    <hr>
+    <section id="banner">
+
+        <q>When words fail, music speaks</q>
+        <h2>The best high-quality guitars in town!</h2>
+    </section>
+    <section id="products" class="section-p1">
+        <h2> Guitars</h2>
+        <div class="pro-container">
+             <div class="pro">
+                 <a href="fcg.html"><img src="imgs/Picture1.png"></a>
+                 <div class="description">
+                     <span>Fitness</span>
+                     <h5>Classic Guitar</h5>
+                     <h4>EGP 1200.00</h4>
+                 </div>
+                 <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+             </div>
+             <div class="pro">
+                <a href="lcg.html"><img src="imgs/Picture3.png"></a>
+                <div class="description">
+                    <span>Lecto</span>
+                    <h5>Classic Guitar C-941</h5>
+                    <h4>EGP 1136.30</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div> 
+            <div class="pro">
+                <a href="ycg.html"><img src="imgs/Picture5.png"></a>
+                <div class="description">
+                    <span>YAMAHA</span>
+                    <h5>Full Size Nylon-String Classical Guitar</h5>
+                    <h4>EGP 2850.00 </h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div> 
+            <div class="pro">
+                <a href="geg.html"><img src="imgs/Picture6.png"></a>
+                <div class="description">
+                    <span>Generic</span>
+                    <h5>Electronic Guitar</h5>
+                    <h4>EGP 2972.20s</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div> 
+            <div class="pro">
+                <a href="ieag.html"><img src="imgs/Picture7.png"></a>
+                <div class="description">
+                    <span>Ibanez</span>
+                    <h5>String Electro Acoustic Guitar</h5>
+                    <h4>EGP 5882.80</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <a href="ecfu.html"><img src="imgs/Picture8.png"></a>
+                <div class="description">
+                    <span>enya</span>
+                    <h5>Nova U Carbon Fiber Ukulele</h5>
+                    <h4>EGP 2800.00</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <a href="gto.html"><img src="imgs/Picture9.jpg"></a>
+                <div class="description">
+                    <span>Generic</span>
+                    <h5>Tutorial Oud</h5>
+                    <h4>EGP 1700.00</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <a href="glc.html"><img src="imgs/Picture10.png"></a>
+                <div class="description">
+                    <span>Generic</span>
+                    <h5>Lute Covered With Shales</h5>
+                    <h4>EGP 9000.00</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <a href="gcwg.html"><img src="imgs/Picture11.png"></a>
+                <div class="description">
+                    <span>Generic</span>
+                    <h5>Classic Right Handed Poplar Wood Guitar CG851</h5>
+                    <h4>EGP 1032.00</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <a href="spg.html"><img src="imgs/Picture12.png"></a>
+                <div class="description">
+                    <span>Suzuki</span>
+                    <h5>Pace Guitar</h5>
+                    <h4>EGP 5500.00</h4>
+                </div>
+                <a class="cart" href="#">Add to cart<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+         </div>
+         
+
+    </section>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            document.body.classlist.toggle("dark-theme");
+            if(document.body.classlist.contains("dark-theme")){
+                icon.src = "imgs/sun-48191-Windows.ico";
+            }
+            else{
+                icon.src = "imgs/moon-icon-23656-Windows.ico";
+            }
+        }
+    </script> 
+</body>
+</html>
