@@ -190,6 +190,7 @@
        text-decoration: none;
        color: black;
        opacity: 0;
+       
    }
    
    .product-card:hover .card-buttom{
@@ -228,6 +229,7 @@
            --third-color: black;
            --fourth-color:white;
            --fifth-color: rgb(245,245,245);
+           --sixth-color:rgb(9, 9, 9);
        }
 
        .dark-theme{
@@ -236,6 +238,7 @@
            --third-color: white;
            --fourth-color:#000106;
            --fifth-color:rgb(172, 171, 171);
+           --sixth-color: rgb(172, 171, 171);
        }
 
        #icon{
@@ -256,7 +259,7 @@
            color: var(--secondary-color);
        }
 
-      .footer2{
+     /* .footer2{
            margin: 0;
            padding: 0;
            background-color: var(--fifth-color);
@@ -326,7 +329,103 @@
            font-size: 18px;
            background-color: rgb(150, 148, 148);
            
-       }
+       }*/
+
+
+       .footer-basic {
+    padding:40px 0;
+    background-color:var(--sixth-color);
+    color:var(--fourth-color);
+    z-index: 20;
+    position: relative;
+    top: 400px;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+    display: inline;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  .footer-basic i img{
+      width: 40px;
+      height: auto;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+   .list-inline-item{
+      background-color: var(--sixth-color);
+      position: relative;
+      left: 120px;
+   }
+
+
+   .brand-logo {
+    height: 90px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+  
       
 
    
@@ -345,24 +444,12 @@
    </div>
    <div class="menu-bar">
     <ul class="links-container">
-        <li class="link-items"><a href="#" class="link">home</a> </li>
-        <li class="link-items"><a href="#" class="link">sign in</a> </li>
-        <li ><a href="#" class="link">details</a> </li>
-        <li ><a href="#" class="link">contact</a> 
-          
-        
-        </li>
-        <li ><a href="#" class="link">help</a>
-            <ul>
-                <li><a href="shopping2.html" class="link555">our items</a></li>
-            </ul>
-        
-        </li>
-        <li ><a href="#" class="link">products</a>
-            <ul>
-                <li><a href="D:\الجهاز القديم\myproject2\shopping2.html" class="link555">our items</a></li>
-            </ul>
-        </li>
+        <li class="link-items"><a href="rahma-home.html" class="link">home</a> </li>
+        <li class="link-items"><a href="login.html" class="link">sign in</a> </li>
+        <li ><a href="index.html" class="link">Guitar</a> </li>
+        <li ><a href="dolagy1.html" class="link">violin</a> </li>
+        <li ><a href="#" class="link">help</a> </li>
+        <li ><a href="#" class="link">woodwind</a>  </li>
         
        </ul>
    </div>
@@ -379,7 +466,7 @@
               <div class="image">
                   <img src="imgs/product1.webp" class="product33" alt="" width="250" height="350">
                   
-                  <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+                  <li><a href="payment.html" class="card-buttom">order now</a></li> 
                   
                   
               </div>
@@ -391,7 +478,7 @@
           <div class="product-card">
             <div class="image">
                 <img src="imgs/product8.webp" class="product33" alt="" width="250" height="350">
-                <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+                <li><a href="payment.html" class="card-buttom">order now</a></li> 
             </div>
             <div class="product-info"><h2 class="product-brand">antika</h2>
               <p class="description">Soprano Recorders (Baroque)</p>
@@ -401,7 +488,7 @@
         <div class="product-card">
             <div class="image">
                 <img src="imgs/product9.webp" class="product33" alt="" width="250" height="350">
-                <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+                <li><a href="payment.html" class="card-buttom">order now</a></li> 
             </div>
             <div class="product-info"><h2 class="product-brand">antika</h2>
               <p class="description">Tenor Recorders (Baroque)</p>
@@ -418,7 +505,7 @@
         <div class="product-card">
             <div class="image">
                 <img src="imgs/product5.webp" class="product33" alt="" width="250" height="350">
-                <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+                <li><a href="payment.html" class="card-buttom">order now</a></li> 
             </div>
             <div class="product-info"><h2 class="product-brand">antika</h2>
               <p class="description">Bb Clarinets (Boehm)</p>
@@ -428,7 +515,7 @@
         <div class="product-card">
           <div class="image">
               <img src="imgs/product6.webp" class="product33" alt="" width="250" height="350">
-              <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+              <li><a href="payment.html" class="card-buttom">order now</a></li> 
           </div>
           <div class="product-info"><h2 class="product-brand">antika</h2>
             <p class="description">Other Clarinets (Boehm)</p>
@@ -438,7 +525,7 @@
       <div class="product-card">
           <div class="image">
               <img src="imgs/product7.webp" class="product33" alt="" width="250" height="350">
-              <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+              <li><a href="payment.html" class="card-buttom">order now</a></li> 
           </div>
           <div class="product-info"><h2 class="product-brand">antika</h2>
             <p class="description">Bb Clarinets (Oehler)</p>
@@ -454,7 +541,7 @@
         <div class="product-card">
             <div class="image">
                 <img src="imgs/product10.webp" class="product33" alt="" width="250" height="350">
-                <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+                <li><a href="payment.html" class="card-buttom">order now</a></li> 
             </div>
             <div class="product-info"><h2 class="product-brand">antika</h2>
               <p class="description">Alto Saxophones</p>
@@ -464,7 +551,7 @@
         <div class="product-card">
           <div class="image">
               <img src="imgs/product11.webp" class="product33" alt="" width="250" height="350">
-              <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+              <li><a href="payment.html" class="card-buttom">order now</a></li> 
           </div>
           <div class="product-info"><h2 class="product-brand">antika</h2>
             <p class="description">Tenor Saxophones</p>
@@ -474,7 +561,7 @@
       <div class="product-card">
         <div class="image">
             <img src="imgs/product12.webp" class="product33" alt="" width="250" height="350">
-            <li><a href="#" class="card-buttom">add to shopping cart</a></li> 
+            <li><a href="payment.html" class="card-buttom">order now</a></li> 
         </div>
         <div class="product-info"><h2 class="product-brand">antika</h2>
           <p class="description">Baritone Saxophones</p>
@@ -495,31 +582,37 @@
        }
        
    </script>
-   <footer class="footer">
-       <div class="footer2">
-           <div class="sociall">
-               <ul>
-                   <li class="sociali"><a href="#"><i class="fab fa-facebook"></i></a></li>
-                   <li class="sociali"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                   <li class="sociali"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                   <li class="sociali"><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
-               </ul>
-           </div>
-
-           <div class="wy">
-               <ul>
-                  <li class="wr"><a href="#">home</a></li>
-                  <li class="wr"><a href="#">about us</a></li>
-                  <li class="wr"><a href="#">contact us</a></li>
-                  <li class="wr"><a href="#">help</a></li>
-                  <li class="wr"><a href="#">feedback</a></li>
-               </ul>
-           </div>
-       </div>
-       <div class="footer3">
-           Copyright &copy; Web Coding Pro. All Rights Reserved
-       </div>
-   </footer>
+    <div class="footer-basic">
+        <footer >
+            <div class="social">
+                <a href="#">
+                    <i class="icon ion-social-instagram"><img src="imgs\insta.jpg" alt="">
+                  </i>
+                </a>
+                <a href="#">
+                <i class="icon ion-social-facebook"><img src="imgs\face.jpg" alt="">
+                </i>
+            </a>
+            <a href="#">
+                <i class="icon ion-social-linked-in"><img src="imgs\linked.jpg" alt="">
+                </i>
+            </a>
+            <a href="#">
+                <i class="icon ion-social-twitter"><img src="imgs\twiter.jpg" alt="">
+                </i>
+            </a>
+        </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="rahma-feedback.html">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="contactproject.html">contact</a></li>
+                <li class="list-inline-item"><a href="page2.html">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="rahma-feedback.html">Feedback</a></li>
+            </ul>
+            <p class="copyright">Mazika © 2022</p>
+        </footer>
+        </div>
                 
  </body> 
 </html>

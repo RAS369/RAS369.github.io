@@ -146,7 +146,8 @@
        font-size: medium;
        position: relative;
        top: 100px;
-       left: 200px;
+       left: 300px;
+       right: 50px;
        
    }
    .product{
@@ -159,7 +160,7 @@
        list-style-type: disc;
        position: relative;
        top: 180px;
-       left: 550px;
+       left: 600px;
    }
 
    .link66{
@@ -174,7 +175,8 @@
    .head33{
        position: relative;
        color: aquamarine;
-       left: 500px;
+       left: 550pX;
+       TOP:30PX;
    }
 
   /* h2{
@@ -191,9 +193,84 @@
        color: #000;
        position: relative;
        top:150px ;
-       left:550px ;
+       left:600px ;
 
    }
+
+
+
+   .footer-basic {
+    padding:40px 0;
+    background-color:rgb(9, 9, 9);
+    color:#fafafc;
+    z-index: 20;
+    position: relative;
+    top: 400px;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+    display: inline;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  .footer-basic i img{
+      width: 40px;
+      height: auto;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
 
 
 
@@ -214,16 +291,17 @@
         </div>
         <div class="menu-bar">
          <ul class="links-container">
-             <li class="link-items"><a href="#" class="link">home</a> </li>
-             <li class="link-items"><a href="#" class="link">products</a>
-             </li>
-             <li class="link-items" ><a href="#" class="link">about us</a> </li>
-             <li class="link-items"><a href="#" class="link">contact</a> </li>
-             <li class="link-items"><a href="#" class="link">help</a> </li>
+            <li class="link-items"><a href="rahma-home.html" class="link">home</a> </li>
+            <li class="link-items"><a href="login.html" class="link">sign in</a> </li>
+            <li ><a href="index.html" class="link">Guitar</a> </li>
+            <li ><a href="dolagy1.html" class="link">violin</a> </li>
+            <li ><a href="#" class="link">help</a> </li>
+            <li ><a href="#" class="link">woodwind</a>  </li>
+            
             </ul>
         </div>
        </nav>
-       <h1 class="head33">about woodwinds</h1>
+       <h1 class="head33">About Woodwinds</h1>
        <div class="parai">
         <p class="para">
             Woodwind instruments are a family of musical instruments within the more general category of wind instruments.<br>
@@ -245,10 +323,42 @@
        
         <ul id="list66">
             <li class="list67"><a href="mainROAA.html" class="link66" >Recorders</a></li>
-            <li  class="list67"><a href="#" class="link66" >Clarinets </a></li>
-            <li  class="list67"><a href="#" class="link66" >Saxophones</a></li>
+            <li  class="list67"><a href="mainROAA.html" class="link66" >Clarinets </a></li>
+            <li  class="list67"><a href="mainROAA.html" class="link66" >Saxophones</a></li>
          
         </ul>
+
+        <div class="footer-basic">
+            <footer >
+                <div class="social">
+                    <a href="#">
+                        <i class="icon ion-social-instagram"><img src="imgs\insta.jpg" alt="">
+                      </i>
+                    </a>
+                    <a href="#">
+                    <i class="icon ion-social-facebook"><img src="imgs\face.jpg" alt="">
+                    </i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-linked-in"><img src="imgs\linked.jpg" alt="">
+                    </i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-twitter"><img src="imgs\twiter.jpg" alt="">
+                    </i>
+                </a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="rahma-feedback.html">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="contactproject.html">contact</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="rahma-feedback.html">Feedback</a></li>
+            </ul>
+                <p class="copyright">Mazika © 2022</p>
+            </footer>
+            </div>
         <script>
             var a;
             function show_hide()
