@@ -81,7 +81,7 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(imgs/guitar\ graffiti.jpg);
+    background-image: url("../imgs/guitar\ graffiti.jpg");
     background-size: auto;
     max-height: 100px;
     font-size: x-large;
