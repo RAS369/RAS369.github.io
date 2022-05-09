@@ -16,7 +16,7 @@
             <nav>
                 <ul id='MenuItems'>
                     <li><a href=' '>Home</a></li>
-                    <li><a href='https://www.google.com'>About us</a></li>
+                    <li><a href=''>About us</a></li>
                     <li><a href='index.html'>payment</a></li>
                     <li><a href='contactproject.html'>Contact</a></li>
                     <!--<li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>-->
@@ -93,6 +93,20 @@
             }
         };
     </script>-->
+<script> 
+        function fun(){
+ if(document.form1.user.value=="" && document.form1.user.value==""){
+    alert("please enter the user and password");
+ }else if(document.form1.user.value==""){
+    alert("please enter the user ");
+ }else if(document.form1.pass.value==""){
+    alert("please enter the password ");
+ }else{
+    alert("the process of the login was been done successfully");
+ }
+    
+     }
+    </script>
 
 </body>
 </html>
