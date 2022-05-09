@@ -4,25 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antika</title>
-     <link rel="stylesheet" href="css/rahma-feedback.css">
-</head>
+    <title>Feedback</title>
+     <link rel="stylesheet" href="project-css\rahma-feedback.css">
+     <script>
+        function myfunction() {
+           let x = document.forms["frm1"]["fname"].value;
+           if (x == "") {
+           alert("all these must be filled out");
+           return false;}}
+       </script>
+    </head>
 <body>
-   
-    <section></section>
+    <section>
+        <div class="navbar">
+            
+            <img id="img" src="imgs\logo44.jpg" alt="logo_image">
+        
+        <nav>
+            <ul id='MenuItems'>
+                <li><a href=''>Home</a></li>
+                <li><a href=' https://www.google.com'>About us</a></li>
+                <li><a href='index.html '>payment</a></li>
+                <li><a href=' contactproject.htm'>Contact</a></li>
+                <!--<li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>-->
+                <li><a href="rahma-feedback.html ">F.back</a></li>
+                
+
+            </ul>
+        </nav>
+    </div>
+    </section>
     <div class="container2">
-    <form >
+       <form onsubmit="return myfunction()" name="frm1">
      <h1>Give Your Feedback</h1>
      <div class="id">
-     <input type="text" placeholder="Your Name">
-     <i class="far fa-user"></i>
+     <input type="text" placeholder="Your Name" name="fname">
+     <i class="glyphicon glyphicon-user"></i>
      </div>
      <div class="id">
-        <input type="email" placeholder="Your Email Address">
-        <i id="far fa-envelope"></i>
+        <input type="email" placeholder="Your Email Address" name="fname">
+        <i id="fas fa-envelope"></i>
         </div>
-        <textarea  cols="15" rows="5" placeholder="Enter Your Message.."></textarea>
+        <textarea  cols="15" rows="5" placeholder="Enter Your Message.." name="fname"></textarea>
         <button>Send</button>
     </form>
 </div>
 </body>
+</html>
