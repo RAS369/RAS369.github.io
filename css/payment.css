@@ -40,6 +40,7 @@ body{
     padding: 40px;
     justify-content:space-around;
     background:rgba(0,0,0,0.3);
+    margin-left:350px;
 }
 
 .container h1{
@@ -48,8 +49,8 @@ body{
     background-color: #F3C693;
     width:500px;
     border-radius: 30px;
-    margin-left: 100px;
     border: solid black 2px;
+    margin-left: 100px;
 
 }
 
@@ -109,4 +110,17 @@ body{
     width:400px;
     margin-left: 150px;
     font-weight: 20px;
+}
+
+
+img{
+    margin-top: 0px;
+    margin-left: 0px;
+    width:150px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 20px;
+    border:#F3C693 solid 1px;
+    object-fit: cover;
 }
