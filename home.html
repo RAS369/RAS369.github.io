@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazika</title>
+     <link rel="stylesheet" href="project-css\index.css">   
+        <style>
+            
+            .dark-mode{
+                background-color: black;
+                color: beige;
+            }
+            nav.dark-mode{
+                background: black;
+            }
+        </style>
+</head>
+<body>
+    <nav class="navbar" >
+    <div class="nav">
+        <div class="brand">
+            <img src="imgs\logo44.jpg" class="brand-logo"  alt="">
+        </div>
+        <div class="nav-items">
+            <div class="search">
+                <input type="text" class="sear-box" placeholder="search products..">
+                <button class="btn">search</button>
+            </div>
+           <a href="#"> <img src="imgs\user.jpg" alt=""></a>
+           <a href="#"><img src="imgs\cart.jpg" alt=""></a>
+           <!-- <label id="dark-change"></label> -->
+        </div>
+    </div>
+    <ul class="links">
+        <li class="link-item"><a href="#" class="link">contact</a></li>
+        <li class="link-item"><a href="rahma-feedback.html" class="link">Feedback</a></li>
+       <li> <button onclick="myFunction()">Toggle dark mode</button></li>
+    </ul>
+</nav>  
+<header>
+    <div class="b-image">
+        <div class="b-text">
+            <h1>Mazika</h1>
+          <h2>The Best Music Store!</h2>
+        </div>
+      </div>
+    <h2 id="two" style="color: rgb(42, 95, 156);"> categories</h2>
+</header>
+<section class="collection-container">
+    <a href="#" class="type">
+    <img src="imgs\guiter.png" alt="">
+    <p class="collection-title" style="color: rgb(39, 100, 158);">Guitar</p>
+    </a>
+    <a href="#" class="type">
+    <img src="imgs\flute1.jpg" alt="">
+    <p class="collection-title" style="color: rgb(39, 100, 158);">Woodwind</p>
+    </a>
+    <a href="#" class="type">
+        <img src="imgs\drum2.jpg" alt="">
+        <p class="collection-title" style="color: rgb(39, 100, 158);">Percussion</p>
+        </a>
+    <a href="#" class="type">
+    <img src="imgs\violin2.jpg" alt="">
+    <p class="collection-title" style="color: rgb(39, 100, 158);">Violin</p>
+    </a>
+    <a href="#" class="type">
+        <img src="imgs\piano.jpg" alt="">
+        <p class="collection-title" style="color: rgb(39, 100, 158);">Keyboards</p>
+        </a>
+</section>
+<div class="footer-basic">
+<footer >
+    <div class="social">
+        <a href="#">
+            <i class="icon ion-social-instagram"><img src="imgs\insta.jpg" alt="">
+          </i>
+        </a>
+        <a href="#">
+        <i class="icon ion-social-facebook"><img src="imgs\face.jpg" alt="">
+        </i>
+    </a>
+    <a href="#">
+        <i class="icon ion-social-linked-in"><img src="imgs\linked.jpg" alt="">
+        </i>
+    </a>
+    <a href="#">
+        <i class="icon ion-social-twitter"><img src="imgs\twiter.jpg" alt="">
+        </i>
+    </a>
+</div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#">About</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+    </ul>
+    <p class="copyright">Mazika © 2022</p>
+</footer>
+</div>
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script> 
+</body>
+</html>
