@@ -25,6 +25,97 @@ header{
     width: 100px;
 
 }
+.navbar{
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(254, 254, 254);
+    z-index: 20;
+
+}
+.nav{
+    padding: 5px 4vw;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+
+}
+.brand-logo {
+    height: 90px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 500px;
+    display: flex;
+    margin-top: 10px; 
+}
+.sear-box{
+    width: 80%;
+    height: 37px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #afaaaa;
+    text-transform: capitalize;
+    background: none;
+    color:#afaaaa;
+    }
+.btn{
+    width: 20%;
+    height: 40%;
+    padding: 10px 20px;
+    border: none;
+    background:rgb(36, 98, 145);
+    color: rgb(254, 254, 254);
+    cursor: pointer;
+    outline:none;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sear-box::placeholder{
+    color:#2f2d2d;
+}
+.nav-items a{
+    margin-left: 10px;
+}
+.nav-items a img{
+    width: 30px;
+    margin-top:12px ;
+    border-radius: 50%;
+}
+ .links{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #c3b0b0;
+}
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #16516b;
+    opacity: 0.5;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    opacity: 1;
+}
 
 nav{
     display: flex;
