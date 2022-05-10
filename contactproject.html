@@ -8,7 +8,7 @@
        <link rel="stylesheet"href="./css/dolagy3.css">
        <title>contact page</title>
         <script>
-         function myfunction() {
+         function validateForm() {
             let x = document.forms["frm1"]["fname"].value;
             if (x == "") {
             alert("all these must be filled out");
@@ -122,7 +122,7 @@
         <i class="material-icons">message</i></button></a>
         <p class="message">info@store.com</p>
         <p class="message1">(+8965) 9825 10025</p>
-         <form onsubmit="return myfunction()"name="frm1">
+         <form onsubmit="return validateForm()"name="frm1">
          <p style="font-size:23px;padding-left:80px;position:relative;bottom:30px;color:black;">write<b> US</b><br/>
          <p style="font-size:20px;left:80px;position:relative;bottom:30px;color:black;">First name</p>
          <div>
